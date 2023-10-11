@@ -29,6 +29,6 @@ export default function useBreedList(animal) {
 
         }
     }, [animal])
-    console.log('breedList',breedList)
+    
     return [breedList, status]
 }
